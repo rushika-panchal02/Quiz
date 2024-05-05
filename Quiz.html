@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./quiz.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+    <title>Quiz</title>
+</head>
+<body>
+    <div class="title">Quiz</div>
+    <div class="main">
+        <div id="box">
+            <h2 id="quesbox">Which planet in the solar system is known as the “Red Planet”?</h2>
+        <div class="row">
+            <input class = "options" type="radio" value="a" id="Venus" name="option">
+            <label for = "Venus">Venus</label>
+        </div>
+        <div class="row">
+            <input class = "options" type="radio" value="b" id="Earth" name="option">
+            <label for = "Earth">Earth</label>
+        </div>
+        <div class="row">
+            <input class = "options" type="radio" value="c" id="Mars" name="option">
+            <label for = "Mars">Mars</label>
+        </div>
+        <div class="row">
+            <input class = "options" type="radio" value="d" id="Jupiter" name="option">
+            <label for = "Jupiter">Jupiter</label>
+        </div>
+        <button type="submit" class="btn" onclick="submitquiz()">Submit</button>
+        </div>
+    </div>
+    <script src="./app.js"></script>  
+</body>
+</html>
